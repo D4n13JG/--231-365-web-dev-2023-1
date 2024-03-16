@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+body{
+    background-color: rgb(144, 238, 144);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(255, 215, 0);
+    width: 100%;
+}
+
+main{
+    margin: 0;
+    padding-bottom: 5%;
+}
+.tour{
+    width: 80%;
+    border: 0.1em solid black;
+
+}
+.tbody td{   
+    border: 0.1em solid rgb(189, 183, 107);
+    padding: 1%;
+    
+}
+.table-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pag{
+    display: flex;
+    justify-content: center;
+}
+
+.advantages{
+    margin: 10%;
+}
+.font{
+    font-size: 3em;
+    color: black;
+    
+}
+.advantages-element{
+    text-align: center;
+}
+.changeBtn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 215, 0);
+    color: white;
+}
+
+.road{
+    background-color: rgba(189, 183, 107, 0.8);
+}
+.pagBtn{
+    width: 3em;
+}
+.nextBtn{
+    width: 5em;
+    color: black;
+}
+
+.gidButton{
+    width: 100%;
+}
+
+footer{
+    padding: 5%;
+}
+
+
+.udivit {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.gid {
+    text-align: center;
+}
+
+/*карта*/
+.tab-card{
+display: flex;
+flex-direction: row;
+height: 60vh;
+border-radius: 24px;
+}
